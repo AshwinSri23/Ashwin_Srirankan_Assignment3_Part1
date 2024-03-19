@@ -13,7 +13,7 @@ Steps for running application:
     3. Type python main.py in the terminal to run the application.
 
 
-Directory names and their purpose:
+Directory names and their purposes:
     
  -application: the directory containing the python file for running containing the application code.
 
