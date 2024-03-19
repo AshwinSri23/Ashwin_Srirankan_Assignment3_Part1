@@ -181,8 +181,9 @@ def main():
     while (True):
 
         if(choice == "1"):
-            print("Here are the results")
+            print("Here are the results\n")
             getAllStudents()
+            print("\n")
 
         elif(choice == "2"):
             firstName = input("Enter the first name of the student:")
