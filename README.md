@@ -3,7 +3,7 @@ Name: Ashwin Srirankan
 
 Student number: 101263900
 
-Link to video:
+Link to video: https://youtu.be/_mle_GVurp8
 
 Steps for running application:
 
