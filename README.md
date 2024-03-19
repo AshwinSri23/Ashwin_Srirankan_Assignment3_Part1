@@ -15,6 +15,6 @@ Steps for running application:
 
 Directory names and their purpose:
     
- application: the directory containing the python file for running containing the application code.
+ -application: the directory containing the python file for running containing the application code.
 
- databaseScripts: the directory containing the SQL file used for initializing the database.
+ -databaseScripts: the directory containing the SQL file used for initializing the database.
