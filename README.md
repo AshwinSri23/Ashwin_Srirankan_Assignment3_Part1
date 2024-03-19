@@ -1,4 +1,4 @@
-# Ashwin_Srirankan_Assignment3_Part1
+# Ashwin_Srirankan_COMP3005_Assignment3_Part1
 Name: Ashwin Srirankan
 
 Link to video: https://youtu.be/_mle_GVurp8
