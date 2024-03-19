@@ -7,9 +7,9 @@ Link to video: https://youtu.be/_mle_GVurp8
 
 Directories:
     
--application: the directory containing the python file for running the code.
-
--databaseScripts: the directory containing the SQL file for initializing the database.
+    application: the directory containing the python file for running the code.
+    
+    databaseScripts: the directory containing the SQL file for initializing the database.
 
 Steps for running application:
 
