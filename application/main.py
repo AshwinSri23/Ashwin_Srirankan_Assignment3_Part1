@@ -167,6 +167,48 @@ def deleteStudent(student_id):
     except psycopg.OperationalError:
         print("The database does not exist or connection to database has failed")
 
+# Main function is used to display the interface that the user would be using
+def main():
+
+    # Displaying the menu when the program is first run
+    print("Choose 1 of the following options")
+    print("1. Return all students")
+    print("2. Add a student")
+    print("3. Delete a student\n")
+    choice = input("Select an option: ")
+
+    # Using an infinite loop to display the interface and allow the user to constantly choose and perform different CRUD operations.
+    while (True):
+
+        if(choice == "1"):
+            print("Here are the results")
+            getAllStudents()
+
+        elif(choice == "2"):
+            firstName = input("Enter the first name of the student:")
+            lastName = input("Enter the last name of the student:")
+            email = input("Enter the email of the student")
+            enrollmentDate = input("Enter the enrollmentDate of the student: ")
+
+            addStudent(firstName,lastName,email,enrollmentDate)
+
+        elif(choice == "3"):
+            id = input("Enter the id of the student you would like to delete")
+
+            deleteStudent(id)
+
+        else:
+            print("Select one of the options")
+
+        print("Choose 1 of the following options")
+        print("1. Return all students")
+        print("2. Add a student")
+        print("3. Delete a student\n")
+        choice = input("Select an option: ")
+
+# Calling the main function to run the user interface
+main()
+
 #Function calls(These calls were used in the video for testing)
 
 #getAllStudents()
