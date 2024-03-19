@@ -8,7 +8,7 @@ Steps for running application:
 
     1. Open the terminal in the directory containing the assignment.
     2. Go to the "application" directory.
-    3. If necessary Change the dbname, user, host, port, and password for each call of psycopg.connect() in each of the functions.
+    3. If necessary, change the dbname, user, host, port, and password for each call of psycopg.connect() in each of the functions.
     4. Type python main.py in the terminal to run the application.
 
 Directory names and their purposes:
