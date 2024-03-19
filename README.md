@@ -1,8 +1,6 @@
 # Ashwin_Srirankan_Assignment3_Part1
 Name: Ashwin Srirankan
 
-Student number: 101263900
-
 Link to video: https://youtu.be/_mle_GVurp8
 
 
